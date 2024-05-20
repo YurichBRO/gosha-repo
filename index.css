@@ -107,35 +107,75 @@ h1 > span {
 
 #cont-2 {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #cont-2-left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     flex-grow: 1;
+    padding: 10px;
 }
 
 #cont-2-main-image {
-    height: 350px;
+    height: 100%;
 }
 
 #characteristics {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
 }
 
 #characteristics > div {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: left .5s;
 }
 
 #characteristics img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
+#cont-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#cont-3 > div {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#cont-3 > div ul,p,h2 {
+    padding: 10px;
+}
+
+#cont-3 > img {
+    width: 250px;
+}
+
+#cont-3 ul {
+    list-style-position: inside;
+}
+
+.ul-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
 
