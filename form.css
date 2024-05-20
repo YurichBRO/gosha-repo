@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10% 10px 10%;;
+    padding: 20px;
+    max-width: 300px;
 }
 
 .form > * {
@@ -29,6 +30,7 @@
     border-radius: 3px;
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .form > button {
@@ -36,7 +38,7 @@
     background: linear-gradient(0deg, rgba(255,194,0,1) 0%, rgba(240,230,100,1) 100%);
     padding: 10px;
     border-radius: 3px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .form > p {
